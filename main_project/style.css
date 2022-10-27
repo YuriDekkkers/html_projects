@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, s;
+    line-height: 175%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 10;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.title-card {
+    height: auto;
+    background-color:rgb(192, 79, 94);
+    padding-top: 380px;
+    padding-bottom: 380px;
+}
+
+.AI-story {
+    width:70%;
+    background-color: rgb(158, 204, 204);
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 60px;
+    text-align: justify;
+    float: left;
+}
+
+.AI-redirect {
+    width: 30%;
+    float: left;
+    background-color:rgb(202, 192, 100);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.picture-AI {
+    text-align: center;
+    background-color: rgb(131, 216, 131);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.subtext {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.AIpicture {
+    width: 400px;
+    height: auto;
+}
