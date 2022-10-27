@@ -34,7 +34,6 @@ p {
 }
 
 .title-card {
-    height: auto;
     background-color:rgb(192, 79, 94);
     padding-top: 380px;
     padding-bottom: 380px;
@@ -77,4 +76,8 @@ p {
 .AIpicture {
     width: 400px;
     height: auto;
+}
+
+.links {
+    font-size: 30;
 }
