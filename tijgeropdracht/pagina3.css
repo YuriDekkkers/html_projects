@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: green;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    color: red;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    width: 530px;
+    color: lightgreen;
+}
+
+h4 {
+    width: 160px;
+    text-align: justify;
+    color: lightgreen;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.right {
+    text-align: right;
+    float: right;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+
+.main-pic {
+    height: auto;
+    width: 250px;
+    padding: 115px;
+    border: 10px solid black;
+}
+
+.author-pic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 500px;
+    border: 10px black solid;
+    margin-left: 450px;
+}
+
+.mainContent {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main {
+    float: left;
+    width: 70%;
+}
+
+.side-content {
+    float: left;
+    width: 350px;
+}
+
+.author {
+    border-top: 10px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    margin-left: 479px;
+    margin-top: 437px;
+}
+
+.empty:after {
+    content: "";
+    display: table;
+    clear: both;
+}

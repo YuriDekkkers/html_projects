@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    width: 27.945%;
+    height: 30%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    text-align: center;
+}
+
+.div1 {
+    background-color: yellow;
+}
+
+.div2 {
+    background-color: red;
+}
+
+.div3 {
+    background-color: blue;
+}
+
+.div4 {
+    background-color: green;
+}
+
+.div5 {
+    background-color: cyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    line-height: 245%;
+}
+
+.div6 {
+    background-color: purple;
+}
+
+.div7 {
+    background-color: gray;
+}
+
+.div8 {
+    background-color: lightpink;
+}
+
+.div9 {
+    background-color: orange;
+}
