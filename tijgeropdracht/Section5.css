@@ -1,0 +1,98 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+    background-color: lime;
+    height: 25px;
+    padding: 10px 0;
+    text-align: center;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+  	width: 87.37%;
+}
+
+.span_6_of_8 {
+  	width: 74.75%;
+}
+
+.span_5_of_8 {
+  	width: 62.12%;
+}
+
+.span_4_of_8 {
+  	width: 49.5%;
+}
+
+.span_3_of_8 {
+  	width: 36.87%;
+}
+
+.span_2_of_8 {
+  	width: 24.25%;
+}
+
+.span_1_of_8 {
+  	width: 11.62%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span_1_of_8:hover {
+    transform: scale(120%);
+    animation: scale 0.5s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+    0% { transform: scale(100%) ;}
+    50% { transform: scale(120%); }
+    100% { transform: scale(100%) ;}
+}
+
+
+
+.lime {
+    background-color: lime;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
