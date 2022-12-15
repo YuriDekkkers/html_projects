@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.header {
+    background-color: rgb(0, 88, 0);
+    width: 100vw;
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 95%, 0 90%);
+}
+
+.header-design {
+    background-color: limegreen;
+    background-image: linear-gradient(to bottom right, limegreen, darkgreen);
+    width: 100vw;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 95%, 0 90%);
+}
+
+.main {
+    background-color: white;
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+}
+
+.sans-holder {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sans {
+    transform: scaleX(600%);
+}
+
+.footer {
+    background-color: darkorange;
+    width: 100vw;
+    height: 30vh;
+    clip-path: polygon(0 0, 50% 15%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 3vh;
+}
+
+.footer-design {
+    background-color: orange;
+    width: 100vw;
+    height: 27vh;
+    clip-path: polygon(0 0, 50% 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.funnybox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: white;
+}
+
+.head-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.head-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
